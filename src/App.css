@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  width: 350px;
+  max-height: 500px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f39c12;
+  color: white;
+}
+
+header h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clear-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.clear-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.highlights-container {
+  padding: 10px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.empty-state {
+  padding: 20px;
+  text-align: center;
+  color: #777;
+}
+
+.empty-state p {
+  margin: 10px 0;
+}
+
+.highlight-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border-left: 3px solid #f39c12;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.highlight-content {
+  flex: 1;
+}
+
+.highlight-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+.highlight-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #777;
+}
+
+.highlight-page {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #555;
+}
+
+.highlight-date {
+  font-style: italic;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
