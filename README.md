@@ -12,15 +12,29 @@
 
 - HTML
 - CSS
-- JavaScript
-- Chrome Extensions API 
+- JavaScript(ES6+)
+- Chrome Extensions API
+- Local Storage API
 
-### 📦 Installation
+###Installation
 
-1. Clone or download this repository.
-2. Open Chrome and navigate to `chrome://extensions/`.
-3. Enable "Developer mode".
-4. Click "Load unpacked" and select the extension's directory. 
+1. Clone this repository:
+   git clone https://github.com/RohanAshara/Text-Highlighter.git
+
+2. Navigate to the project directory:
+   cd Text-Highlighter
+
+3. Install dependencies:
+   npm install
+
+4. Build the extension:
+   npm run build
+
+5. Open Chrome and navigate to chrome://extensions/
+
+6. Enable "Developer mode" in the top-right corner
+
+7. Click "Load unpacked" and select the dist or build folder from this project
 
 ### 📄 Usage
 
